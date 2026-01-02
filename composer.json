@@ -1,0 +1,31 @@
+{
+    "name": "labapawel/calendar",
+    "description": "Filament Calendar Component",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LabaPawel\\Calendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LabaPawel",
+            "email": "labapawel@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LabaPawel\\Calendar\\CalendarServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

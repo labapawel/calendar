@@ -2,6 +2,8 @@
 
 A custom calendar component for FilamentPHP, supporting single date and date range selection.
 
+![image.png](image.png)
+
 ## Installation
 
 You can install the package via composer. Since this is a local package under development, add it to your `composer.json` repositories:
